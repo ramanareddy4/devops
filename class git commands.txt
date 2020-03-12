@@ -1,0 +1,89 @@
+git clone "https://<githubtoken>@github.com/devops-april-demo/demo.git"
+  307  ll
+  308  cd demo/
+  309  ll
+  310  git branch
+  311  git config --list
+  312  git config --global user.name ramanareddy
+  313  git config --global user.email ramanareddy4k@gmail.com
+  314  clear
+  315  git config --list
+  316  clear
+  317  ll
+  318  vi test.txt
+  319  add test.txt
+  320  git add test.txt
+  321  git add .
+  322  git commit -m "my first commit"
+  323  git push
+  324  clear
+  325  git status
+  326  touch file.txt
+  327  git status
+  328  git add .
+  329  git show
+  330  git commit -m "my second commit"
+  331  git show
+  332  git siatus
+  333  git status
+  334  clear
+  335  git fetch
+  336  git pull
+  337  git fetch
+  338  ll
+  339  git pull
+  340  ll
+  341  clear
+  342  git push
+  343  clear
+  344  git log
+  345  clear
+  346  git branch devops
+  347  git brach
+  348  git branch
+  349  git checkout devops
+  350  git branch
+  351  ll
+  352  git merge master
+  353  git checkout -b april
+  354  git branch
+  357  vi help.txt
+  358  git add .
+  359  git commit -m "merge commit"
+  360  git checkout devops
+  361  ll
+  362  git merge april
+  363  git fetch
+  364  git push
+  365  git push devops
+  366  clear
+  367  git checkout master
+  368  git push
+  369  git pull
+  370  git push origin devops
+  371  git push origin april
+  372  clear
+  373  git log
+  374  git diff fb9c5b20ae987e8579e1364c891db3337d7c7432 76ac28da228530547f370d039c89c6fccae94527
+  375  clear
+  376  git brach
+  377  git branch
+  378  clear
+  379  git checkout april
+  380  touch 1 2 3
+  381  add .
+  382   383  git add .
+  384  git commit -m "multiple"
+  385  git checkout master
+  386  git rebase april
+  387 
+  388  git log
+  389  git checkout april
+  390  git log
+  391  git branch -d april
+  392  git branch -d devops
+  393  git branch
+  394  git push
+  395  git push origin devops
+  396  git push origin master
+  397  history
